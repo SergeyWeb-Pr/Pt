@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>progresstech</title>
+  <link rel="preload" href="fonts/CeraPro-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/CeraPro-Medium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/CeraPro-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/CeraPro-Italic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+  <script defer src="js/main.js"></script>
+</head>
+
+
+<body class="page__body">
+  <div class="site-container">
+    <header class="header">
+  <div class="container header__container">
+    <a class="logo" href="#">
+      <img loading="lazy" src="img/svg/logo.svg" class="image hide_576" width="" height="" alt="">
+      <img loading="lazy" src="img/svg/logo_mobile.svg" class="image show_576" width="" height="" alt="">
+    </a>
+    <div class="header__content">
+      <div class="header__top">
+        <div class="header__links">
+          <div class="tel">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M9.28812 1.33301H7.68262C7.4608 1.33301 7.28125 1.51195 7.28125 1.73301C7.28125 1.95407 7.4608 2.13301 7.68262 2.13301H9.28812C9.50995 2.13301 9.6895 1.95407 9.6895 1.73301C9.6895 1.51195 9.50995 1.33301 9.28812 1.33301Z"
+                fill="white" />
+              <path
+                d="M11.0274 0H4.60549C3.72034 0 3 0.717875 3 1.6V14.4C3 15.2821 3.72034 16 4.60549 16H11.0274C11.9126 16 12.6329 15.2821 12.6329 14.4V1.6C12.6329 0.717875 11.9126 0 11.0274 0ZM11.8302 14.4C11.8302 14.8419 11.4708 15.2 11.0274 15.2H4.60549C4.1621 15.2 3.80274 14.8419 3.80274 14.4V1.6C3.80274 1.15813 4.1621 0.8 4.60549 0.8H11.0274C11.4708 0.8 11.8302 1.15813 11.8302 1.6V14.4Z"
+                fill="white" />
+              <path
+                d="M7.81642 14.6664C8.25976 14.6664 8.61916 14.3082 8.61916 13.8664C8.61916 13.4246 8.25976 13.0664 7.81642 13.0664C7.37307 13.0664 7.01367 13.4246 7.01367 13.8664C7.01367 14.3082 7.37307 14.6664 7.81642 14.6664Z"
+                fill="white" />
+              <path
+                d="M6.34473 2.13301C6.5664 2.13301 6.7461 1.95392 6.7461 1.73301C6.7461 1.51209 6.5664 1.33301 6.34473 1.33301C6.12306 1.33301 5.94336 1.51209 5.94336 1.73301C5.94336 1.95392 6.12306 2.13301 6.34473 2.13301Z"
+                fill="white" />
+            </svg>
+            <a href="tel:+7 (812) 346-88-95">+7 (812) 346-88-95</a>
+          </div>
+          <div class="mail">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_23_4322)">
+                <path
+                  d="M14.5 2H1.50001C0.672854 2 0 2.67285 0 3.50001V12.5C0 13.3272 0.672854 14 1.50001 14H14.5C15.3271 14 16 13.3272 16 12.5V3.50001C16 2.67285 15.3271 2 14.5 2ZM14.5 3C14.5679 3 14.6325 3.01409 14.6916 3.03871L8 8.83839L1.30833 3.03871C1.36742 3.01412 1.43204 3 1.49998 3H14.5ZM14.5 13H1.50001C1.22414 13 0.999996 12.7759 0.999996 12.5V4.09521L7.67236 9.87793C7.76661 9.95945 7.8833 10 8 10C8.1167 10 8.23339 9.95949 8.32764 9.87793L15 4.09521V12.5C15 12.7759 14.7759 13 14.5 13Z"
+                  fill="white" />
+              </g>
+            </svg>
+            <a href="mailto:mail@pt.spb.ru">mail@pt.spb.ru</a>
+          </div>
+        </div>
+        <div class="download">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M8.00528 15.6675H2.14528C1.85891 15.6884 1.57139 15.6473 1.3023 15.5471C1.0332 15.447 0.788823 15.29 0.585787 15.087C0.38275 14.884 0.225813 14.6396 0.125645 14.3705C0.0254764 14.1014 -0.0155741 13.8139 0.00528404 13.5275V11.0075C0.00410648 10.8428 0.0636108 10.6835 0.172438 10.5599C0.281265 10.4363 0.431792 10.3572 0.595284 10.3375C0.756706 10.3209 0.918667 10.3635 1.05109 10.4572C1.18351 10.551 1.27738 10.6897 1.31528 10.8475C1.32561 10.9372 1.32561 11.0278 1.31528 11.1175V13.5875C1.3042 13.6887 1.31598 13.7911 1.34975 13.8871C1.38352 13.9832 1.43842 14.0704 1.51041 14.1424C1.58239 14.2144 1.66962 14.2693 1.76566 14.303C1.86169 14.3368 1.96409 14.3486 2.06528 14.3375H13.9253C14.0265 14.3486 14.1289 14.3368 14.2249 14.303C14.3209 14.2693 14.4082 14.2144 14.4802 14.1424C14.5521 14.0704 14.607 13.9832 14.6408 13.8871C14.6746 13.7911 14.6864 13.6887 14.6753 13.5875C14.6753 12.7275 14.6753 11.8675 14.6753 11.0075C14.6719 10.8422 14.7306 10.6817 14.8398 10.5576C14.9491 10.4335 15.1009 10.355 15.2653 10.3375C15.4267 10.3209 15.5887 10.3635 15.7211 10.4572C15.8535 10.551 15.9474 10.6897 15.9853 10.8475C15.9951 10.9305 15.9951 11.0145 15.9853 11.0975V13.5975C15.9951 13.872 15.9482 14.1455 15.8477 14.4011C15.7471 14.6567 15.595 14.8888 15.4008 15.083C15.2066 15.2772 14.9744 15.4293 14.7189 15.5299C14.4633 15.6304 14.1898 15.6773 13.9153 15.6675H8.00528Z"
+              fill="white" />
+            <path
+              d="M7.33538 10.9378V1.81783C7.32006 1.70836 7.32006 1.59729 7.33538 1.48783C7.37568 1.33142 7.47276 1.19563 7.60771 1.10689C7.74267 1.01816 7.90582 0.982841 8.06538 1.00783C8.2224 1.02394 8.36869 1.09497 8.47846 1.2084C8.58823 1.32182 8.65443 1.47036 8.66538 1.62783C8.67037 1.70441 8.67037 1.78124 8.66538 1.85783V10.9478L9.58538 10.2178L10.9154 9.14783C10.9761 9.06741 11.0541 9.00171 11.1436 8.95562C11.2332 8.90952 11.332 8.88421 11.4327 8.88158C11.5334 8.87894 11.6334 8.89905 11.7253 8.9404C11.8171 8.98175 11.8985 9.04328 11.9633 9.12041C12.0281 9.19754 12.0746 9.28829 12.0995 9.3859C12.1244 9.48352 12.1269 9.58548 12.1069 9.68422C12.087 9.78295 12.045 9.87591 11.9841 9.95617C11.9232 10.0364 11.8451 10.1019 11.7554 10.1478L8.47538 12.8078C8.41398 12.8701 8.34081 12.9196 8.26012 12.9533C8.17944 12.9871 8.09285 13.0045 8.00538 13.0045C7.91792 13.0045 7.83133 12.9871 7.75065 12.9533C7.66996 12.9196 7.59679 12.8701 7.53538 12.8078C6.46538 12.0078 5.39538 11.1078 4.33538 10.2478C4.25392 10.1967 4.18463 10.1283 4.13235 10.0476C4.08007 9.96685 4.04608 9.87566 4.03274 9.7804C4.01941 9.68514 4.02705 9.58811 4.05515 9.49612C4.08324 9.40413 4.1311 9.31938 4.19538 9.24783C4.25315 9.17274 4.32617 9.11076 4.40965 9.06597C4.49312 9.02118 4.58515 8.9946 4.67965 8.98798C4.77415 8.98137 4.86898 8.99487 4.95788 9.02759C5.04678 9.06032 5.12773 9.11152 5.19538 9.17783L7.19538 10.7578L7.33538 10.9378Z"
+              fill="white" />
+          </svg>
+          <a href="img/doc.doc" download="proposed_file_name">Материалы для скачивания </a>
+        </div>
+      </div>
+      <div class="header__bottom">
+        <nav class="nav" title="">
+          <ul class="nav__list list-reset">
+            <li class="nav__item"><a href="#" class="nav__link">О компании</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Инновации</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Продукция</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Услуги</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Новости</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="header__lang">EN</div>
+        <div class="search">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_13_4340)">
+              <path
+                d="M8.73115 1.20843C10.2053 1.20682 11.6468 1.64146 12.8728 2.45725C14.0988 3.27304 15.0542 4.43324 15.6177 5.79077C16.1813 7.14831 16.3277 8.64204 16.0384 10.0826C15.7491 11.5232 15.0372 12.8457 13.9928 13.8825C13.301 14.5719 12.4798 15.1188 11.5759 15.4919C10.6721 15.865 9.70338 16.057 8.72509 16.057C7.74679 16.057 6.77807 15.865 5.87424 15.4919C4.97041 15.1188 4.14918 14.5719 3.45741 13.8825C2.76565 13.1931 2.21692 12.3747 1.84254 11.474C1.46816 10.5732 1.27547 9.60783 1.27547 8.63287C1.27547 7.65792 1.46816 6.69251 1.84254 5.79178C2.21692 4.89104 2.76565 4.0726 3.45741 3.38321C4.14807 2.69063 4.96995 2.14172 5.87528 1.76838C6.78062 1.39504 7.75137 1.20471 8.73115 1.20843V1.20843ZM8.73115 0.000226994C6.72275 -0.0142772 4.77162 0.666705 3.21114 1.92682C1.65066 3.18693 0.577686 4.94796 0.175546 6.90901C-0.226595 8.87007 0.0670593 10.9094 1.00633 12.6787C1.94561 14.4479 3.4722 15.8371 5.32528 16.6091C7.17836 17.381 9.24291 17.4877 11.1662 16.9109C13.0894 16.3342 14.752 15.1097 15.8699 13.4468C16.9878 11.7839 17.4915 9.78577 17.2951 7.79378C17.0987 5.80179 16.2142 3.9396 14.7929 2.52538C13.1823 0.924687 11.0057 0.0179495 8.73115 0.000226994V0.000226994Z"
+                fill="white" />
+              <path d="M14.6475 14.5352L19.4605 19.3317" stroke="white" stroke-miterlimit="10" stroke-linecap="round" />
+            </g>
+          </svg>
+
+        </div>
+      </div>
+    </div>
+    <div class="menu_mobile" data-menu>
+      <div class="block_search">
+        <div class="form__label">
+          <input type="text" name="Поиск" class="block_search__input" placeholder="Поиск">
+        </div>
+        <div class="header__lang">EN</div>
+      </div>
+      <div class="footer__items accordion" id="accordion">
+        <div class="footer__item accordion__item">
+          <div class="footer__name accordion__header">
+            О компании
+          </div>
+          <ul class="footer__list list-reset accordion__body">
+            <li class="footer__li">
+              <a class="footer__li_link" href="#">Производство</a>
+            </li>
+            <li class="footer__li">
+              <a class="footer__li_link" href="#">Лицензии и сертификаты</a>
+            </li>
+            <li class="footer__li">
+              <a class="footer__li_link" href="#">Партнёры и заказчики</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__item accordion__item">
+          <div class="footer__name accordion__header">
+            Инновации
+          </div>
+          <ul class="footer__list list-reset accordion__body">
+            <li class="footer__li">
+              <a class="footer__li_link" href="#">Железнодорожная стрелка</a>
+            </li>
+            <li class="footer__li">
+              <a class="footer__li_link" href="#">Автоматизированная система мониторинга промышленных
+                выбросов</a>
+            </li>
+            <li class="footer__li">
+              <a class="footer__li_link" href="#">Комплекс испытательного оборудования для системы подводной добычи</a>
+            </li>
+            <li class="footer__li">
+              <a class="footer__li_link" href="#">Система управления (фильтрами, стрелками, станками)</a>
+            </li>
+            <li class="footer__li">
+              <a class="footer__li_link" href="#">Универсальные платформы управления роботизированными комплексами</a>
+            </li>
+            <li class="footer__li">
+              <a class="footer__li_link" href="#">Морская сейсморазведка</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__item accordion__item">
+          <div class="footer__name accordion__header">
+            Продукция
+          </div>
+          <ul class="footer__list list-reset accordion__body">
+            <li class="footer__li">
+              <a class="footer__li_link" href="#">Двери судовые</a>
+            </li>
+            <li class="footer__li">
+              <a class="footer__li_link" href="#">Крышки сходных судовых люков</a>
+            </li>
+            <li class="footer__li">
+              <a class="footer__li_link" href="#">Леерные ограждения тросовые</a>
+            </li>
+            <li class="footer__li">
+              <a class="footer__li_link" href="#">Судовые люки</a>
+            </li>
+            <li class="footer__li">
+              <a class="footer__li_link" href="#">Рольганги судовые</a>
+            </li>
+            <li class="footer__li">
+              <a class="footer__li_link" href="#">Специальные изделия</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__item accordion__item">
+          <div class="footer__name accordion__header">
+            Услуги
+          </div>
+          <ul class="footer__list list-reset accordion__body">
+            <li class="footer__li">
+              <a class="footer__li_link" href="#">Проектирование</a>
+            </li>
+            <li class="footer__li">
+              <a class="footer__li_link" href="#">Сборочно-сварочные работы</a>
+            </li>
+            <li class="footer__li">
+              <a class="footer__li_link" href="#">Испытания</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__item accordion__item">
+          <div class="footer__name accordion__header">
+            Материалы
+          </div>
+          <ul class="footer__list list-reset accordion__body">
+            <li class="footer__li">
+              <a class="footer__li_link" href="#">Презентации</a>
+            </li>
+            <li class="footer__li">
+              <a class="footer__li_link" href="#">Каталоги, буклеты и листовки</a>
+            </li>
+            <li class="footer__li">
+              <a class="footer__li_link" href="#">Научные статьи</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__item accordion__item">
+          <div class="footer__name accordion__header">
+            Новости
+          </div>
+        </div>
+        <div class="footer__item accordion__item">
+          <div class="footer__name accordion__header">
+            Контакты
+          </div>
+        </div>
+      </div>
+      <div class="download">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M8.00528 15.6675H2.14528C1.85891 15.6884 1.57139 15.6473 1.3023 15.5471C1.0332 15.447 0.788823 15.29 0.585787 15.087C0.38275 14.884 0.225813 14.6396 0.125645 14.3705C0.0254764 14.1014 -0.0155741 13.8139 0.00528404 13.5275V11.0075C0.00410648 10.8428 0.0636108 10.6835 0.172438 10.5599C0.281265 10.4363 0.431792 10.3572 0.595284 10.3375C0.756706 10.3209 0.918667 10.3635 1.05109 10.4572C1.18351 10.551 1.27738 10.6897 1.31528 10.8475C1.32561 10.9372 1.32561 11.0278 1.31528 11.1175V13.5875C1.3042 13.6887 1.31598 13.7911 1.34975 13.8871C1.38352 13.9832 1.43842 14.0704 1.51041 14.1424C1.58239 14.2144 1.66962 14.2693 1.76566 14.303C1.86169 14.3368 1.96409 14.3486 2.06528 14.3375H13.9253C14.0265 14.3486 14.1289 14.3368 14.2249 14.303C14.3209 14.2693 14.4082 14.2144 14.4802 14.1424C14.5521 14.0704 14.607 13.9832 14.6408 13.8871C14.6746 13.7911 14.6864 13.6887 14.6753 13.5875C14.6753 12.7275 14.6753 11.8675 14.6753 11.0075C14.6719 10.8422 14.7306 10.6817 14.8398 10.5576C14.9491 10.4335 15.1009 10.355 15.2653 10.3375C15.4267 10.3209 15.5887 10.3635 15.7211 10.4572C15.8535 10.551 15.9474 10.6897 15.9853 10.8475C15.9951 10.9305 15.9951 11.0145 15.9853 11.0975V13.5975C15.9951 13.872 15.9482 14.1455 15.8477 14.4011C15.7471 14.6567 15.595 14.8888 15.4008 15.083C15.2066 15.2772 14.9744 15.4293 14.7189 15.5299C14.4633 15.6304 14.1898 15.6773 13.9153 15.6675H8.00528Z" fill="white"></path>
+          <path d="M7.33538 10.9378V1.81783C7.32006 1.70836 7.32006 1.59729 7.33538 1.48783C7.37568 1.33142 7.47276 1.19563 7.60771 1.10689C7.74267 1.01816 7.90582 0.982841 8.06538 1.00783C8.2224 1.02394 8.36869 1.09497 8.47846 1.2084C8.58823 1.32182 8.65443 1.47036 8.66538 1.62783C8.67037 1.70441 8.67037 1.78124 8.66538 1.85783V10.9478L9.58538 10.2178L10.9154 9.14783C10.9761 9.06741 11.0541 9.00171 11.1436 8.95562C11.2332 8.90952 11.332 8.88421 11.4327 8.88158C11.5334 8.87894 11.6334 8.89905 11.7253 8.9404C11.8171 8.98175 11.8985 9.04328 11.9633 9.12041C12.0281 9.19754 12.0746 9.28829 12.0995 9.3859C12.1244 9.48352 12.1269 9.58548 12.1069 9.68422C12.087 9.78295 12.045 9.87591 11.9841 9.95617C11.9232 10.0364 11.8451 10.1019 11.7554 10.1478L8.47538 12.8078C8.41398 12.8701 8.34081 12.9196 8.26012 12.9533C8.17944 12.9871 8.09285 13.0045 8.00538 13.0045C7.91792 13.0045 7.83133 12.9871 7.75065 12.9533C7.66996 12.9196 7.59679 12.8701 7.53538 12.8078C6.46538 12.0078 5.39538 11.1078 4.33538 10.2478C4.25392 10.1967 4.18463 10.1283 4.13235 10.0476C4.08007 9.96685 4.04608 9.87566 4.03274 9.7804C4.01941 9.68514 4.02705 9.58811 4.05515 9.49612C4.08324 9.40413 4.1311 9.31938 4.19538 9.24783C4.25315 9.17274 4.32617 9.11076 4.40965 9.06597C4.49312 9.02118 4.58515 8.9946 4.67965 8.98798C4.77415 8.98137 4.86898 8.99487 4.95788 9.02759C5.04678 9.06032 5.12773 9.11152 5.19538 9.17783L7.19538 10.7578L7.33538 10.9378Z" fill="white"></path>
+        </svg>
+        <a class="" href="img/doc.doc" download="proposed_file_name">Скачать PDF файл статьи</a>
+      </div>
+    </div>
+
+
+    <button class="burger show_991" aria-label="Открыть меню" aria-expanded="false" data-burger>
+      <span class="burger__line"></span>
+      <span class="burger__line"></span>
+      <span class="burger__line"></span>
+    </button>
+  </div>
+</header>
+
+
+    <main class="main">
+      <section class="contacts">
+  <div class="container">
+    <div class="breadcrumbs">
+      <p>Главная</p>
+      <img loading="lazy" src="img/svg/arrow_right_virid.svg" class="image" width="" height="" alt="">
+      <p>Раздел сайта</p>
+      <img loading="lazy" src="img/svg/arrow_right_virid.svg" class="image" width="" height="" alt="">
+      <p>Страница</p>
+    </div>
+    <h2 class="contacts__title h2">
+      Контакты
+    </h2>
+    <div class="contacts__block">
+      <div class="contacts__content">
+        <div class="contacts__items">
+          <div class="contacts__item">
+            <div class="contacts__li">
+              <div class="contacts__name">Телефон:</div>
+              <a class="contacts__tel" href="tel:+7 (812) 346-88-95">+7 (812) 346-88-95</a>
+              <div class="contacts__text">(Приемная)</div>
+            </div>
+            <div class="contacts__li">
+              <div class="contacts__name">E-mail:</div>
+              <a class="contacts__mail" href="mailto@pt.spb.ru">mail@pt.spb.ru</a>
+              <div class="contacts__text">(Приемная)</div>
+            </div>
+          </div>
+          <div class="contacts__item">
+            <div class="contacts__li">
+              <div class="contacts__name">Телефон:</div>
+              <a class="contacts__tel" href="tel:+7 (931) 322-77-31">+7 (931) 322-77-31</a>
+              <div class="contacts__text">(Коммерческий отдел)</div>
+            </div>
+            <div class="contacts__li">
+              <div class="contacts__name">E-mail:</div>
+              <a class="contacts__mail" href="mailto@pt.spb.ru">mail@pt.spb.ru</a>
+              <div class="contacts__text">(ПE.Lamanov@pt.spb.ru)</div>
+            </div>
+          </div>
+          <div class="contacts__item">
+            <div class="contacts__li">
+              <div class="contacts__text"><b>Адрес офиса:</b> Санкт-Петербург, ул. Корабельная, д.6, литера ЖУ</div>
+            </div>
+            <div class="contacts__li">
+              <div class="contacts__text"><b>Адрес производства:</b> Санкт-Петербург, ул. Корабельная, д.6, литера ЖУ
+              </div>
+            </div>
+          </div>
+          <div class="contacts__subinfo">
+            <span>Внимание: </span>проезд на территорию с дороги на Турухтанные острова, 3-я транспортная проходная
+            судостроительного завода «Северная верфь».
+          </div>
+        </div>
+        <div class="contacts__buttons">
+          <a href="img/doc.doc" class="contacts__button1 button3" download="proposed_file_name">
+            Скачать реквизиты
+          </a>
+          <button class="contacts__button2 button3 btn-reset">
+            Связаться с нами
+          </button>
+        </div>
+      </div>
+      <div class="contacts__inner">
+        <iframe
+          src="https://yandex.ru/map-widget/v1/?um=constructor%3A9b8a4da186c27000f382afb92ef40ef4b97d591715354e4864518529cacdc3ce&amp;source=constructor"
+          width="570" height="600" frameborder="0"></iframe>
+      </div>
+    </div>
+
+
+  </div>
+</section>
+
+    </main>
+
+    <footer class="footer">
+  <div class="container">
+    <div class="footer__items">
+      <div class="footer__item">
+        <div class="footer__name">
+          О компании
+        </div>
+        <ul class="footer__list list-reset">
+          <li class="footer__li">
+            <a class="footer__li_link" href="#">Производство</a>
+          </li>
+          <li class="footer__li">
+            <a class="footer__li_link" href="#">Лицензии и сертификаты</a>
+          </li>
+          <li class="footer__li">
+            <a class="footer__li_link" href="#">Партнёры и заказчики</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__item">
+        <div class="footer__name">
+          Инновации
+        </div>
+        <ul class="footer__list list-reset">
+          <li class="footer__li">
+            <a class="footer__li_link" href="#">Железнодорожная стрелка</a>
+          </li>
+          <li class="footer__li">
+            <a class="footer__li_link" href="#">Автоматизированная система мониторинга промышленных
+              выбросов</a>
+          </li>
+          <li class="footer__li">
+            <a class="footer__li_link" href="#">Комплекс испытательного оборудования для системы подводной добычи</a>
+          </li>
+          <li class="footer__li">
+            <a class="footer__li_link" href="#">Система управления (фильтрами, стрелками, станками)</a>
+          </li>
+          <li class="footer__li">
+            <a class="footer__li_link" href="#">Универсальные платформы управления роботизированными комплексами</a>
+          </li>
+          <li class="footer__li">
+            <a class="footer__li_link" href="#">Морская сейсморазведка</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__item">
+        <div class="footer__name">
+          Продукция
+        </div>
+        <ul class="footer__list list-reset">
+          <li class="footer__li">
+            <a class="footer__li_link" href="#">Двери судовые</a>
+          </li>
+          <li class="footer__li">
+            <a class="footer__li_link" href="#">Крышки сходных судовых люков</a>
+          </li>
+          <li class="footer__li">
+            <a class="footer__li_link" href="#">Леерные ограждения тросовые</a>
+          </li>
+          <li class="footer__li">
+            <a class="footer__li_link" href="#">Судовые люки</a>
+          </li>
+          <li class="footer__li">
+            <a class="footer__li_link" href="#">Рольганги судовые</a>
+          </li>
+          <li class="footer__li">
+            <a class="footer__li_link" href="#">Специальные изделия</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__item">
+        <div class="footer__name">
+          Услуги
+        </div>
+        <ul class="footer__list list-reset">
+          <li class="footer__li">
+            <a class="footer__li_link" href="#">Проектирование</a>
+          </li>
+          <li class="footer__li">
+            <a class="footer__li_link" href="#">Сборочно-сварочные работы</a>
+          </li>
+          <li class="footer__li">
+            <a class="footer__li_link" href="#">Испытания</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__item">
+        <div class="footer__name">
+          Материалы
+        </div>
+        <ul class="footer__list list-reset">
+          <li class="footer__li">
+            <a class="footer__li_link" href="#">Презентации</a>
+          </li>
+          <li class="footer__li">
+            <a class="footer__li_link" href="#">Каталоги, буклеты и листовки</a>
+          </li>
+          <li class="footer__li">
+            <a class="footer__li_link" href="#">Научные статьи</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__item">
+        <div class="footer__name">
+          Новости
+        </div>
+      </div>
+      <div class="footer__item">
+        <div class="footer__name">
+          Контакты
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="footer__left">
+        <div class="footer__info">
+          <a class="logo" href="#">
+            <img loading="lazy" src="img/svg/logo_footer.svg" class="image" width="" height="" alt="">
+          </a>
+          <div class="footer__ref">
+            <div class="tel">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M9.28812 1.33301H7.68262C7.4608 1.33301 7.28125 1.51195 7.28125 1.73301C7.28125 1.95407 7.4608 2.13301 7.68262 2.13301H9.28812C9.50995 2.13301 9.6895 1.95407 9.6895 1.73301C9.6895 1.51195 9.50995 1.33301 9.28812 1.33301Z"
+                  fill="white" />
+                <path
+                  d="M11.0274 0H4.60549C3.72034 0 3 0.717875 3 1.6V14.4C3 15.2821 3.72034 16 4.60549 16H11.0274C11.9126 16 12.6329 15.2821 12.6329 14.4V1.6C12.6329 0.717875 11.9126 0 11.0274 0ZM11.8302 14.4C11.8302 14.8419 11.4708 15.2 11.0274 15.2H4.60549C4.1621 15.2 3.80274 14.8419 3.80274 14.4V1.6C3.80274 1.15813 4.1621 0.8 4.60549 0.8H11.0274C11.4708 0.8 11.8302 1.15813 11.8302 1.6V14.4Z"
+                  fill="white" />
+                <path
+                  d="M7.81642 14.6664C8.25976 14.6664 8.61916 14.3082 8.61916 13.8664C8.61916 13.4246 8.25976 13.0664 7.81642 13.0664C7.37307 13.0664 7.01367 13.4246 7.01367 13.8664C7.01367 14.3082 7.37307 14.6664 7.81642 14.6664Z"
+                  fill="white" />
+                <path
+                  d="M6.34473 2.13301C6.5664 2.13301 6.7461 1.95392 6.7461 1.73301C6.7461 1.51209 6.5664 1.33301 6.34473 1.33301C6.12306 1.33301 5.94336 1.51209 5.94336 1.73301C5.94336 1.95392 6.12306 2.13301 6.34473 2.13301Z"
+                  fill="white" />
+              </svg>
+              <a href="tel:+7 (812) 346-88-95">+7 (812) 346-88-95</a>
+            </div>
+            <div class="mail">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_23_4322)">
+                  <path
+                    d="M14.5 2H1.50001C0.672854 2 0 2.67285 0 3.50001V12.5C0 13.3272 0.672854 14 1.50001 14H14.5C15.3271 14 16 13.3272 16 12.5V3.50001C16 2.67285 15.3271 2 14.5 2ZM14.5 3C14.5679 3 14.6325 3.01409 14.6916 3.03871L8 8.83839L1.30833 3.03871C1.36742 3.01412 1.43204 3 1.49998 3H14.5ZM14.5 13H1.50001C1.22414 13 0.999996 12.7759 0.999996 12.5V4.09521L7.67236 9.87793C7.76661 9.95945 7.8833 10 8 10C8.1167 10 8.23339 9.95949 8.32764 9.87793L15 4.09521V12.5C15 12.7759 14.7759 13 14.5 13Z"
+                    fill="white" />
+                </g>
+              </svg>
+              <a href="mailto:mail@pt.spb.ru">mail@pt.spb.ru</a>
+            </div>
+            <button class="footer__button button2 btn-reset" data-graph-path="modal1">
+              Связаться с нами
+            </button>
+            <div class="location">
+              <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_67_13433)">
+                  <path
+                    d="M8 0.839844C4.691 0.839844 2 3.53084 2 6.83984C2 10.9988 7.416 16.4628 7.646 16.6938C7.744 16.7908 7.872 16.8398 8 16.8398C8.128 16.8398 8.256 16.7908 8.354 16.6938C8.584 16.4628 14 10.9988 14 6.83984C14 3.53084 11.309 0.839844 8 0.839844ZM8 15.6168C6.806 14.3388 3 10.0168 3 6.83984C3 4.08284 5.243 1.83984 8 1.83984C10.757 1.83984 13 4.08284 13 6.83984C13 10.0138 9.194 14.3388 8 15.6168Z"
+                    fill="#BFA372" />
+                  <path
+                    d="M8 3.83984C6.346 3.83984 5 5.18584 5 6.83984C5 8.49384 6.346 9.83984 8 9.83984C9.654 9.83984 11 8.49384 11 6.83984C11 5.18584 9.654 3.83984 8 3.83984ZM8 8.83984C6.897 8.83984 6 7.94284 6 6.83984C6 5.73684 6.897 4.83984 8 4.83984C9.103 4.83984 10 5.73684 10 6.83984C10 7.94284 9.103 8.83984 8 8.83984Z"
+                    fill="#BFA372" />
+                </g>
+              </svg>
+              <span>Санкт-Петербург, Ленинский пр., д. 153, пом. 361Н</span>
+            </div>
+          </div>
+        </div>
+        <div class="footer__links hide_992">
+          <a class="footer__link" href="#">Реквизиты компании</a>
+          <a class="footer__link" href="#">Политика конфиденциальности</a>
+          <a class="footer__link" href="#">Политика использования файлов «cookie»</a>
+        </div>
+      </div>
+      <div class="footer__right">
+        <div class="edge">
+          <img loading="lazy" src="img/png/edge1.png" class="image" width="" height="" alt="">
+          <span>На предприятии действует <a href="#">Система интеллектуального производства ©</a></span>
+        </div>
+        <div class="edge">
+          <img loading="lazy" src="img/png/edge2.png" class="image" width="" height="" alt="">
+          <span><a href="#">ГОСТ Р ИСО 9001–2015 (ISO 9001:2015) и ГОСТ РВ 0015–002–2012</a></span>
+        </div>
+        <div class="edge">
+          <img loading="lazy" src="img/png/edge3.png" class="image" width="" height="" alt="">
+          <span>Не ищите нас в социальных сетях. Мы работаем.</span>
+        </div>
+      </div>
+      <div class="footer__links show_992">
+        <a class="footer__link" href="#">Реквизиты компании</a>
+        <a class="footer__link" href="#">Политика конфиденциальности</a>
+        <a class="footer__link" href="#">Политика использования файлов «cookie»</a>
+      </div>
+    </div>
+    <div class="footer__end">
+      <div class="footer__copy">
+        © 2022 — АО «ПТ»
+      </div>
+      <div class="footer__copy">
+        Разработка сайта <a href="#">«Пикмедиа»</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="graph-modal">
+  <div class="graph-modal__container modal1" role="dialog" aria-modal="true" data-graph-target="modal1">
+    <button class="btn-reset js-modal-close graph-modal__close" aria-label="Закрыть модальное окно"></button>
+    <div class="graph-modal__content">
+      <form action="#" class="form">
+        <h4 class="form__title h4">Связаться с нами</h4>
+        <div class="form__inner">
+          <label class="form__label">
+            <input type="text" name="Название организации" class="input-reset form__input"
+              placeholder="Название организации *">
+          </label>
+          <label class="form__label">
+            <input type="text" name="Контактное лицо" class="input-reset form__input" placeholder="Контактное лицо *">
+          </label>
+          <label class="form__label">
+            <input type="text" name="Телефон" class="input-reset form__input" placeholder="Телефон *">
+          </label>
+          <label class="form__label">
+            <input type="text" name="Email" class="input-reset form__input" placeholder="Email">
+          </label>
+          <label class="input-file">
+            <input type="file" name="file">
+            <span class="input-file-btn">Загрузить файл</span>
+          </label>
+          <label class="form__label">
+            <textarea type="text" name="Комментарий" class="input-reset form__input form__textarea"
+              placeholder="Ваш комментарий *"></textarea>
+          </label>
+          <div class="form__check">
+            <input type="checkbox" class="custom-checkbox" id="happy" name="happy" value="yes" checked="checked">
+            <label for="happy" class="form__text">Я соглашаюсь с <a href="#">политикой конфиденциальности</a></label>
+          </div>
+          <button class="btn-reset form__btn form__button button1">Отправить</button>
+        </div>
+
+      </form>
+    </div>
+  </div>
+</div>
+
+  </div>
+</body>
+
+</html>
