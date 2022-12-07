@@ -6590,6 +6590,10 @@ textarea {
   .header .menu_mobile.menu--active {
     margin-top: 64px;
   }
+  .header.hedtop .logo {
+    width: auto;
+    height: auto;
+  }
 }
 @media screen and (max-width: 375px) {
   .science_single__nav {
